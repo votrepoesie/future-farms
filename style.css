@@ -1,0 +1,80 @@
+body {
+    background: #F8FBF0;
+}
+
+.container {
+    margin: 300px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacing {
+    width: 100vw;
+    height: 300px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title h1 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    width: 732px;
+    color: #002021;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 1037px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.card-image img {
+    width: 558px;
+    height: 386px;
+    border-radius: 50px;
+}
+
+.card-content {
+    width: 340px;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #002021;
+}
+
+p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.squiggle {
+    position: absolute;
+    top: 480px;
+    z-index: -1;
+}
